@@ -1,0 +1,30 @@
+{
+	"node": "n8n-nodes-geloky.geloky",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Data & Storage", "Utility"],
+	"alias": [
+		"geocode",
+		"geocoding",
+		"reverse geocoding",
+		"latitude",
+		"longitude",
+		"coordinates",
+		"address",
+		"distance",
+		"travel time",
+		"map"
+	],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://github.com/geloky/n8n-nodes-geloky?tab=readme-ov-file#credentials"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://github.com/geloky/n8n-nodes-geloky?tab=readme-ov-file"
+			}
+		]
+	}
+}
