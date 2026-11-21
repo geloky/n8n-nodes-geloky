@@ -38,30 +38,21 @@ export class GelokyApi implements ICredentialType {
 		},
 	};
 
-	// account_balance is the free call of Geloky's MCP server, which also takes the key as ?key=.
-	// It costs nothing and passes with an empty wallet; a wrong key answers with result.isError.
+	// GET /api/geo/balance is free and answers an empty wallet too, so a new account can connect
+	// before its first top-up. The key goes in the "key" query parameter, as authenticate adds it;
+	// a wrong key answers HTTP 200 with code ERROR.
 	test: ICredentialTestRequest = {
 		request: {
 			baseURL: 'https://geloky.com',
-			url: '/mcp',
-			method: 'POST',
-			headers: {
-				'Content-Type': 'application/json',
-				Accept: 'application/json, text/event-stream',
-			},
-			body: {
-				jsonrpc: '2.0',
-				id: 1,
-				method: 'tools/call',
-				params: { name: 'account_balance', arguments: {} },
-			},
+			url: '/api/geo/balance',
+			method: 'GET',
 		},
 		rules: [
 			{
 				type: 'responseSuccessBody',
 				properties: {
-					key: 'result.isError',
-					value: true,
+					key: 'code',
+					value: 'ERROR',
 					message:
 						'Geloky does not accept this API key. Copy it again from the API tab of your dashboard; pressing Change there replaces it.',
 				},

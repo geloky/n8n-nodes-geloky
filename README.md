@@ -120,6 +120,8 @@ Copy this and paste it into an empty workflow, then pick your Geloky credential 
 
 ## Version history
 
+- 0.1.3: The key check uses Geloky's REST API instead of its MCP server. It's still free, and an empty wallet still
+  passes.
 - 0.1.2: The README says what to do on n8n Cloud. Published through npm trusted publishing; the node is unchanged.
 - 0.1.1: The node's Docs link and the credential's help link open Geloky's n8n guide.
 - 0.1.0: Geocode Address, Reverse Geocode and Calculate Distance.

@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.3
+
+- The credential's key check calls Geloky's free REST call `GET /api/geo/balance` instead of its MCP server, as n8n's
+  verification requires. It still costs nothing and still passes with an empty wallet.
+
 ## 0.1.2
 
 - The README says what to do on n8n Cloud until n8n verifies the node. The node itself is unchanged.
