@@ -1,6 +1,6 @@
 {
 	"name": "n8n-nodes-geloky",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"description": "n8n node for Geloky: geocode addresses, reverse geocode coordinates and measure road distance and travel time, paid per lookup from your Geloky API wallet.",
 	"license": "MIT",
 	"homepage": "https://geloky.com/help-api",

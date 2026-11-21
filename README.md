@@ -21,6 +21,10 @@ platform.
 Follow the [installation guide](https://docs.n8n.io/integrations/community-nodes/installation/) in the n8n community
 nodes documentation. The package name is `n8n-nodes-geloky`.
 
+n8n Cloud installs a community node only after n8n has verified it, and this one isn't verified yet. Until then, on
+n8n Cloud, call Geloky's REST API from an **HTTP Request** node, as
+[Geloky's guide shows](https://geloky.com/blog/geocode-addresses-in-n8n#on-n8n-cloud-the-http-request-node).
+
 ## Operations
 
 | Operation | What you give it | What you get | Cost |
@@ -116,5 +120,6 @@ Copy this and paste it into an empty workflow, then pick your Geloky credential 
 
 ## Version history
 
+- 0.1.2: The README says what to do on n8n Cloud. Published through npm trusted publishing; the node is unchanged.
 - 0.1.1: The node's Docs link and the credential's help link open Geloky's n8n guide.
 - 0.1.0: Geocode Address, Reverse Geocode and Calculate Distance.
