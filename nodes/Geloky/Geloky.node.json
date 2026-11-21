@@ -18,12 +18,12 @@
 	"resources": {
 		"credentialDocumentation": [
 			{
-				"url": "https://github.com/geloky/n8n-nodes-geloky?tab=readme-ov-file#credentials"
+				"url": "https://geloky.com/blog/geocode-addresses-in-n8n#install-the-geloky-node"
 			}
 		],
 		"primaryDocumentation": [
 			{
-				"url": "https://github.com/geloky/n8n-nodes-geloky?tab=readme-ov-file"
+				"url": "https://geloky.com/blog/geocode-addresses-in-n8n"
 			}
 		]
 	}

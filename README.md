@@ -109,10 +109,12 @@ Copy this and paste it into an empty workflow, then pick your Geloky credential 
 
 ## Resources
 
+- [How to geocode addresses in n8n](https://geloky.com/blog/geocode-addresses-in-n8n), Geloky's guide to this node
 - [n8n community nodes documentation](https://docs.n8n.io/integrations/#community-nodes)
 - [Geloky API documentation](https://geloky.com/help-api)
 - [Geloky pricing](https://geloky.com/price-api)
 
 ## Version history
 
+- 0.1.1: The node's Docs link and the credential's help link open Geloky's n8n guide.
 - 0.1.0: Geocode Address, Reverse Geocode and Calculate Distance.

@@ -13,7 +13,7 @@ export class GelokyApi implements ICredentialType {
 
 	icon: Icon = { light: 'file:../icons/geloky.light.svg', dark: 'file:../icons/geloky.dark.svg' };
 
-	documentationUrl = 'https://geloky.com/help-api#authentication';
+	documentationUrl = 'https://geloky.com/blog/geocode-addresses-in-n8n#install-the-geloky-node';
 
 	properties: INodeProperties[] = [
 		{
